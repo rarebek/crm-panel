@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=crm-user
+      - POSTGRES_PASSWORD=crm-password
+      - POSTGRES_DB=crm-db
+    ports:
+      - "5432:5432"
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db

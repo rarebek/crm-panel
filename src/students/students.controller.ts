@@ -3,7 +3,6 @@ import { StudentsService } from './students.service';
 import { CreateStudentDto } from './dto/create-student.dto';
 import { UpdateStudentDto } from './dto/update-student.dto';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { flatMap } from 'rxjs';
 
 @ApiTags("students")
 @Controller('students')
@@ -53,5 +52,11 @@ export class StudentsController {
   @Delete(':id')
   async remove(@Param('id') id: string) {
     return this.studentsService.remove(id);
+  }
+
+  @ApiOperation({summary: "Get All Students by group ID"})
+  @Get(':group_id')
+  async getAllStudentsByGroupId(@Param('group_id') group_id: string) {
+    return this.getAllStudentsByGroupId(group_id)
   }
 }

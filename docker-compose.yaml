@@ -7,9 +7,32 @@ services:
       - POSTGRES_DB=crm-db
     ports:
       - "5432:5432"
+
   adminer:
     image: adminer
     ports:
       - "8080:8080"
     depends_on:
       - db
+
+  minio:
+    container_name: minio
+    image: bitnami/minio:latest
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    env_file: .env
+    volumes:
+      - minio-data:/data
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      MINIO_DEFAULT_BUCKETS: ${MINIO_DEFAULT_BUCKET}
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9000/minio/health/live || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+volumes:
+  minio-data:
+    driver: local

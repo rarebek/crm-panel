@@ -16,6 +16,13 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle("CRM-PANEL API")
     .setDescription("by Nodirbek")
+    .addBearerAuth({
+        type: "http",
+        scheme: "bearer",
+        bearerFormat: "JWT", 
+      },
+      'access-token'
+    )
     .build();
 
     const document = SwaggerModule.createDocument(app, config);

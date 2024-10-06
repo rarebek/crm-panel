@@ -1,5 +1,6 @@
 import {
   Controller,
+  Query,
   Get,
   Post,
   Body,
@@ -14,6 +15,7 @@ import { StudentsService } from './students.service';
 import { CreateStudentDto } from './dto/create-student.dto';
 import { UpdateStudentDto } from './dto/update-student.dto';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
+import { FilterStudentsDto } from './dto/filter-student.dto';
 
 @ApiTags("students")
 @Controller('students')
@@ -37,9 +39,9 @@ export class StudentsController {
   @ApiResponse({ status: 200, description: "Successfully retrieved all students" })
   @ApiResponse({ status: 500, description: "Internal server error" })
   @Get()
-  async findAll() {
+  async findAll(@Query() filterStudentsDto: FilterStudentsDto) {
     try {
-      return await this.studentsService.findAll();
+      return await this.studentsService.findAll(filterStudentsDto);
     } catch (error) {
       this.handleServiceError(error);
     }

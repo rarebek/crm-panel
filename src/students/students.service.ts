@@ -5,6 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Student } from './entities/student.entity';
 import { Repository } from 'typeorm';
 import { Group } from 'src/groups/entities/group.entity';
+import { FilterStudentsDto } from './dto/filter-student.dto';
 
 @Injectable()
 export class StudentsService {
@@ -30,11 +31,31 @@ export class StudentsService {
 
     return newStudent;
   }
-  async findAll() {
-    return this.studentRepository.find();
-  }
+
+  async findAll(filterStudentsDto: FilterStudentsDto) {
+    const { name, phone_number, parent_name, parent_phone_number } = filterStudentsDto;
+
+    const queryBuilder = this.studentRepository.createQueryBuilder('student');
+
+    if (name) {
+        queryBuilder.andWhere('student.name ILIKE :name', { name: `%${name}%` });
+    }
+    if (phone_number) {
+        queryBuilder.andWhere('student.phone_number = :phone_number', { phone_number });
+    }
+    if (parent_name) {
+        queryBuilder.andWhere('student.parent_name ILIKE :parent_name', { parent_name: `%${parent_name}%` });
+    }
+    if (parent_phone_number) {
+        queryBuilder.andWhere('student.parent_phone_number = :parent_phone_number', { parent_phone_number });
+    }
+
+    return queryBuilder.getMany();
+}
+
+      
   async findOne(id: string) {
-    return this.studentRepository.findOne({where: { id }})
+    return this.studentRepository.findOne({where: { id }, relations: ['groups']})
   }
 
   async update(id: string, updateStudentDto: UpdateStudentDto) {

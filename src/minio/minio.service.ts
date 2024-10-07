@@ -36,7 +36,7 @@ export class FileUploadService {
           'Content-Type': file.mimetype,
         },
       );
-      return `http://${process.env.MINIO_ENDPOINT}:${process.env.MINIO_PORT}/images/${fileName}`
+      return `http://localhost:${process.env.MINIO_PORT}/images/${fileName}`
     } catch (error) {
       throw new Error(`Failed to upload file: ${error.message}`);
     }

@@ -1,0 +1,728 @@
+.:
+  - path: /docker-compose.yaml
+    type: file
+  - path: /nest-cli.json
+    type: file
+  - path: /Dockerfile
+    type: file
+  - path: /node_modules
+    type: directory
+    contents:
+    - path: /node_modules/tsconfig-paths
+      type: directory
+      contents:
+    - path: /node_modules/stripe
+      type: directory
+      contents:
+    - path: /node_modules/winston
+      type: directory
+      contents:
+    - path: /node_modules/uuid
+      type: directory
+      contents:
+    - path: /node_modules/ts-loader
+      type: directory
+      contents:
+    - path: /node_modules/jest
+      type: directory
+      contents:
+    - path: /node_modules/swagger-themes
+      type: directory
+      contents:
+    - path: /node_modules/pg
+      type: directory
+      contents:
+    - path: /node_modules/class-validator
+      type: directory
+      contents:
+    - path: /node_modules/typeorm
+      type: directory
+      contents:
+    - path: /node_modules/cloudinary
+      type: directory
+      contents:
+    - path: /node_modules/reflect-metadata
+      type: directory
+      contents:
+    - path: /node_modules/passport-jwt
+      type: directory
+      contents:
+    - path: /node_modules/passport
+      type: directory
+      contents:
+    - path: /node_modules/eslint
+      type: directory
+      contents:
+    - path: /node_modules/moment
+      type: directory
+      contents:
+    - path: /node_modules/@eslint-community
+      type: directory
+      contents:
+      - path: /node_modules/@eslint-community/eslint-utils
+        type: directory
+        contents:
+      - path: /node_modules/@eslint-community/regexpp
+        type: directory
+        contents:
+    - path: /node_modules/swagger-ui-express
+      type: directory
+      contents:
+    - path: /node_modules/eslint-scope
+      type: directory
+      contents:
+    - path: /node_modules/express
+      type: directory
+      contents:
+    - path: /node_modules/ts-jest
+      type: directory
+      contents:
+    - path: /node_modules/uploadthing
+      type: directory
+      contents:
+    - path: /node_modules/nest-winston
+      type: directory
+      contents:
+    - path: /node_modules/prettier
+      type: directory
+      contents:
+    - path: /node_modules/class-transformer
+      type: directory
+      contents:
+    - path: /node_modules/@nestjs
+      type: directory
+      contents:
+      - path: /node_modules/@nestjs/common
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/core
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/mapped-types
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/typeorm
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/platform-express
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/passport
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/schematics
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/serve-static
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/swagger
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/testing
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/config
+        type: directory
+        contents:
+      - path: /node_modules/@nestjs/cli
+        type: directory
+        contents:
+    - path: /node_modules/multer
+      type: directory
+      contents:
+    - path: /node_modules/supertest
+      type: directory
+      contents:
+    - path: /node_modules/@eslint
+      type: directory
+      contents:
+      - path: /node_modules/@eslint/js
+        type: directory
+        contents:
+      - path: /node_modules/@eslint/eslintrc
+        type: directory
+        contents:
+    - path: /node_modules/prettier-linter-helpers
+      type: directory
+      contents:
+    - path: /node_modules/rxjs
+      type: directory
+      contents:
+    - path: /node_modules/nestjs-minio-client
+      type: directory
+      contents:
+    - path: /node_modules/ts-node
+      type: directory
+      contents:
+    - path: /node_modules/typescript
+      type: directory
+      contents:
+    - path: /node_modules/@typescript-eslint
+      type: directory
+      contents:
+      - path: /node_modules/@typescript-eslint/scope-manager
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/eslint-plugin
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/typescript-estree
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/utils
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/type-utils
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/parser
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/visitor-keys
+        type: directory
+        contents:
+      - path: /node_modules/@typescript-eslint/types
+        type: directory
+        contents:
+    - path: /node_modules/eslint-plugin-prettier
+      type: directory
+      contents:
+    - path: /node_modules/minio
+      type: directory
+      contents:
+    - path: /node_modules/eslint-config-prettier
+      type: directory
+      contents:
+    - path: /node_modules/@types
+      type: directory
+      contents:
+      - path: /node_modules/@types/jest
+        type: directory
+        contents:
+      - path: /node_modules/@types/passport-jwt
+        type: directory
+        contents:
+      - path: /node_modules/@types/express
+        type: directory
+        contents:
+      - path: /node_modules/@types/multer
+        type: directory
+        contents:
+      - path: /node_modules/@types/supertest
+        type: directory
+        contents:
+      - path: /node_modules/@types/node
+        type: directory
+        contents:
+    - path: /node_modules/uuidv4
+      type: directory
+      contents:
+    - path: /node_modules/source-map-support
+      type: directory
+      contents:
+    - path: /node_modules/swagger-theme
+      type: directory
+      contents:
+    - path: /node_modules/dotenv
+      type: directory
+      contents:
+    - path: /node_modules/eslint-visitor-keys
+      type: directory
+      contents:
+  - path: /README.md
+    type: file
+  - path: /src
+    type: directory
+    contents:
+    - path: /src/stats
+      type: directory
+      contents:
+      - path: /src/stats/stats.module.ts
+        type: file
+      - path: /src/stats/dto
+        type: directory
+        contents:
+        - path: /src/stats/dto/create-stat.dto.ts
+          type: file
+        - path: /src/stats/dto/update-stat.dto.ts
+          type: file
+      - path: /src/stats/entities
+        type: directory
+        contents:
+        - path: /src/stats/entities/stat.entity.ts
+          type: file
+      - path: /src/stats/stats.service.ts
+        type: file
+      - path: /src/stats/stats.controller.ts
+        type: file
+    - path: /src/students
+      type: directory
+      contents:
+      - path: /src/students/dto
+        type: directory
+        contents:
+        - path: /src/students/dto/update-student.dto.ts
+          type: file
+        - path: /src/students/dto/filter-student.dto.ts
+          type: file
+        - path: /src/students/dto/create-student.dto.ts
+          type: file
+      - path: /src/students/entities
+        type: directory
+        contents:
+        - path: /src/students/entities/student.entity.ts
+          type: file
+      - path: /src/students/students.controller.ts
+        type: file
+      - path: /src/students/students.service.ts
+        type: file
+      - path: /src/students/students.module.ts
+        type: file
+    - path: /src/groups
+      type: directory
+      contents:
+      - path: /src/groups/groups.service.ts
+        type: file
+      - path: /src/groups/groups.controller.ts
+        type: file
+      - path: /src/groups/dto
+        type: directory
+        contents:
+        - path: /src/groups/dto/create-group.dto.ts
+          type: file
+        - path: /src/groups/dto/update-group.dto.ts
+          type: file
+      - path: /src/groups/groups.module.ts
+        type: file
+      - path: /src/groups/entities
+        type: directory
+        contents:
+        - path: /src/groups/entities/group.entity.ts
+          type: file
+    - path: /src/core
+      type: directory
+      contents:
+      - path: /src/core/logger
+        type: directory
+        contents:
+        - path: /src/core/logger/logger.module.ts
+          type: file
+      - path: /src/core/core.module.ts
+        type: file
+    - path: /src/teachers
+      type: directory
+      contents:
+      - path: /src/teachers/dto
+        type: directory
+        contents:
+        - path: /src/teachers/dto/create-teacher.dto.ts
+          type: file
+        - path: /src/teachers/dto/update-teacher.dto.ts
+          type: file
+      - path: /src/teachers/teachers.service.ts
+        type: file
+      - path: /src/teachers/entities
+        type: directory
+        contents:
+        - path: /src/teachers/entities/teacher.entity.ts
+          type: file
+      - path: /src/teachers/teachers.controller.ts
+        type: file
+      - path: /src/teachers/teachers.module.ts
+        type: file
+    - path: /src/lesson
+      type: directory
+      contents:
+      - path: /src/lesson/dto
+        type: directory
+        contents:
+        - path: /src/lesson/dto/update-lesson.dto.ts
+          type: file
+        - path: /src/lesson/dto/create-lesson.dto.ts
+          type: file
+      - path: /src/lesson/entities
+        type: directory
+        contents:
+        - path: /src/lesson/entities/attendance.entity.ts
+          type: file
+        - path: /src/lesson/entities/lesson.entity.ts
+          type: file
+      - path: /src/lesson/lesson.service.ts
+        type: file
+      - path: /src/lesson/lesson.controller.ts
+        type: file
+      - path: /src/lesson/lesson.module.ts
+        type: file
+    - path: /src/payment
+      type: directory
+      contents:
+      - path: /src/payment/payment.controller.ts
+        type: file
+      - path: /src/payment/dto
+        type: directory
+        contents:
+        - path: /src/payment/dto/update-payment.dto.ts
+          type: file
+        - path: /src/payment/dto/create-payment.dto.ts
+          type: file
+      - path: /src/payment/entities
+        type: directory
+        contents:
+        - path: /src/payment/entities/payment.entity.ts
+          type: file
+      - path: /src/payment/payment.module.ts
+        type: file
+      - path: /src/payment/payment.service.ts
+        type: file
+    - path: /src/app.module.ts
+      type: file
+    - path: /src/minio
+      type: directory
+      contents:
+      - path: /src/minio/minio.service.ts
+        type: file
+      - path: /src/minio/minio.controller.ts
+        type: file
+    - path: /src/main.ts
+      type: file
+  - path: /pnpm-lock.yaml
+    type: file
+  - path: /dist
+    type: directory
+    contents:
+    - path: /dist/stats
+      type: directory
+      contents:
+      - path: /dist/stats/stats.module.d.ts
+        type: file
+      - path: /dist/stats/stats.module.js.map
+        type: file
+      - path: /dist/stats/dto
+        type: directory
+        contents:
+        - path: /dist/stats/dto/create-stat.dto.js.map
+          type: file
+        - path: /dist/stats/dto/update-stat.dto.js.map
+          type: file
+        - path: /dist/stats/dto/create-stat.dto.js
+          type: file
+        - path: /dist/stats/dto/create-stat.dto.d.ts
+          type: file
+        - path: /dist/stats/dto/update-stat.dto.d.ts
+          type: file
+        - path: /dist/stats/dto/update-stat.dto.js
+          type: file
+      - path: /dist/stats/stats.service.js.map
+        type: file
+      - path: /dist/stats/entities
+        type: directory
+        contents:
+        - path: /dist/stats/entities/stat.entity.d.ts
+          type: file
+        - path: /dist/stats/entities/stat.entity.js.map
+          type: file
+        - path: /dist/stats/entities/stat.entity.js
+          type: file
+      - path: /dist/stats/stats.service.d.ts
+        type: file
+      - path: /dist/stats/stats.controller.js.map
+        type: file
+      - path: /dist/stats/stats.controller.d.ts
+        type: file
+      - path: /dist/stats/stats.service.js
+        type: file
+      - path: /dist/stats/stats.controller.js
+        type: file
+      - path: /dist/stats/stats.module.js
+        type: file
+    - path: /dist/app.module.js
+      type: file
+    - path: /dist/students
+      type: directory
+      contents:
+      - path: /dist/students/students.controller.d.ts
+        type: file
+      - path: /dist/students/students.service.js.map
+        type: file
+      - path: /dist/students/students.service.d.ts
+        type: file
+      - path: /dist/students/dto
+        type: directory
+        contents:
+        - path: /dist/students/dto/update-student.dto.js
+          type: file
+        - path: /dist/students/dto/update-student.dto.d.ts
+          type: file
+        - path: /dist/students/dto/create-student.dto.js.map
+          type: file
+        - path: /dist/students/dto/create-student.dto.d.ts
+          type: file
+        - path: /dist/students/dto/filter-student.dto.js.map
+          type: file
+        - path: /dist/students/dto/filter-student.dto.js
+          type: file
+        - path: /dist/students/dto/create-student.dto.js
+          type: file
+        - path: /dist/students/dto/filter-student.dto.d.ts
+          type: file
+        - path: /dist/students/dto/update-student.dto.js.map
+          type: file
+      - path: /dist/students/students.module.js.map
+        type: file
+      - path: /dist/students/students.module.d.ts
+        type: file
+      - path: /dist/students/entities
+        type: directory
+        contents:
+        - path: /dist/students/entities/student.entity.d.ts
+          type: file
+        - path: /dist/students/entities/student.entity.js.map
+          type: file
+        - path: /dist/students/entities/student.entity.js
+          type: file
+      - path: /dist/students/students.controller.js
+        type: file
+      - path: /dist/students/students.module.js
+        type: file
+      - path: /dist/students/students.controller.js.map
+        type: file
+      - path: /dist/students/students.service.js
+        type: file
+    - path: /dist/groups
+      type: directory
+      contents:
+      - path: /dist/groups/groups.controller.d.ts
+        type: file
+      - path: /dist/groups/groups.service.d.ts
+        type: file
+      - path: /dist/groups/dto
+        type: directory
+        contents:
+        - path: /dist/groups/dto/update-group.dto.d.ts
+          type: file
+        - path: /dist/groups/dto/update-group.dto.js.map
+          type: file
+        - path: /dist/groups/dto/create-group.dto.d.ts
+          type: file
+        - path: /dist/groups/dto/create-group.dto.js.map
+          type: file
+        - path: /dist/groups/dto/update-group.dto.js
+          type: file
+        - path: /dist/groups/dto/create-group.dto.js
+          type: file
+      - path: /dist/groups/groups.controller.js
+        type: file
+      - path: /dist/groups/groups.service.js.map
+        type: file
+      - path: /dist/groups/entities
+        type: directory
+        contents:
+        - path: /dist/groups/entities/group.entity.d.ts
+          type: file
+        - path: /dist/groups/entities/group.entity.js.map
+          type: file
+        - path: /dist/groups/entities/group.entity.js
+          type: file
+      - path: /dist/groups/groups.controller.js.map
+        type: file
+      - path: /dist/groups/groups.module.js
+        type: file
+      - path: /dist/groups/groups.module.js.map
+        type: file
+      - path: /dist/groups/groups.module.d.ts
+        type: file
+      - path: /dist/groups/groups.service.js
+        type: file
+    - path: /dist/core
+      type: directory
+      contents:
+      - path: /dist/core/core.module.d.ts
+        type: file
+      - path: /dist/core/core.module.js
+        type: file
+      - path: /dist/core/logger
+        type: directory
+        contents:
+        - path: /dist/core/logger/logger.module.js.map
+          type: file
+        - path: /dist/core/logger/logger.module.d.ts
+          type: file
+        - path: /dist/core/logger/logger.module.js
+          type: file
+      - path: /dist/core/core.module.js.map
+        type: file
+    - path: /dist/teachers
+      type: directory
+      contents:
+      - path: /dist/teachers/teachers.module.js.map
+        type: file
+      - path: /dist/teachers/teachers.controller.js
+        type: file
+      - path: /dist/teachers/teachers.controller.js.map
+        type: file
+      - path: /dist/teachers/dto
+        type: directory
+        contents:
+        - path: /dist/teachers/dto/create-teacher.dto.js
+          type: file
+        - path: /dist/teachers/dto/update-teacher.dto.js.map
+          type: file
+        - path: /dist/teachers/dto/create-teacher.dto.js.map
+          type: file
+        - path: /dist/teachers/dto/create-teacher.dto.d.ts
+          type: file
+        - path: /dist/teachers/dto/update-teacher.dto.js
+          type: file
+        - path: /dist/teachers/dto/update-teacher.dto.d.ts
+          type: file
+      - path: /dist/teachers/teachers.module.d.ts
+        type: file
+      - path: /dist/teachers/teachers.service.d.ts
+        type: file
+      - path: /dist/teachers/entities
+        type: directory
+        contents:
+        - path: /dist/teachers/entities/teacher.entity.js
+          type: file
+        - path: /dist/teachers/entities/teacher.entity.js.map
+          type: file
+        - path: /dist/teachers/entities/teacher.entity.d.ts
+          type: file
+      - path: /dist/teachers/teachers.service.js
+        type: file
+      - path: /dist/teachers/teachers.service.js.map
+        type: file
+      - path: /dist/teachers/teachers.module.js
+        type: file
+      - path: /dist/teachers/teachers.controller.d.ts
+        type: file
+    - path: /dist/main.js.map
+      type: file
+    - path: /dist/lesson
+      type: directory
+      contents:
+      - path: /dist/lesson/lesson.controller.d.ts
+        type: file
+      - path: /dist/lesson/lesson.controller.js
+        type: file
+      - path: /dist/lesson/lesson.module.js
+        type: file
+      - path: /dist/lesson/dto
+        type: directory
+        contents:
+        - path: /dist/lesson/dto/update-lesson.dto.d.ts
+          type: file
+        - path: /dist/lesson/dto/create-lesson.dto.js.map
+          type: file
+        - path: /dist/lesson/dto/create-lesson.dto.d.ts
+          type: file
+        - path: /dist/lesson/dto/create-lesson.dto.js
+          type: file
+        - path: /dist/lesson/dto/update-lesson.dto.js
+          type: file
+        - path: /dist/lesson/dto/update-lesson.dto.js.map
+          type: file
+      - path: /dist/lesson/lesson.service.d.ts
+        type: file
+      - path: /dist/lesson/lesson.service.js
+        type: file
+      - path: /dist/lesson/lesson.module.js.map
+        type: file
+      - path: /dist/lesson/lesson.controller.js.map
+        type: file
+      - path: /dist/lesson/lesson.service.js.map
+        type: file
+      - path: /dist/lesson/entities
+        type: directory
+        contents:
+        - path: /dist/lesson/entities/lesson.entity.js.map
+          type: file
+        - path: /dist/lesson/entities/attendance.entity.js
+          type: file
+        - path: /dist/lesson/entities/lesson.entity.d.ts
+          type: file
+        - path: /dist/lesson/entities/lesson.entity.js
+          type: file
+        - path: /dist/lesson/entities/attendance.entity.js.map
+          type: file
+        - path: /dist/lesson/entities/attendance.entity.d.ts
+          type: file
+      - path: /dist/lesson/lesson.module.d.ts
+        type: file
+    - path: /dist/payment
+      type: directory
+      contents:
+      - path: /dist/payment/payment.controller.js
+        type: file
+      - path: /dist/payment/payment.service.d.ts
+        type: file
+      - path: /dist/payment/dto
+        type: directory
+        contents:
+        - path: /dist/payment/dto/create-payment.dto.js
+          type: file
+        - path: /dist/payment/dto/update-payment.dto.d.ts
+          type: file
+        - path: /dist/payment/dto/create-payment.dto.d.ts
+          type: file
+        - path: /dist/payment/dto/update-payment.dto.js
+          type: file
+        - path: /dist/payment/dto/update-payment.dto.js.map
+          type: file
+        - path: /dist/payment/dto/create-payment.dto.js.map
+          type: file
+      - path: /dist/payment/payment.module.d.ts
+        type: file
+      - path: /dist/payment/payment.service.js.map
+        type: file
+      - path: /dist/payment/entities
+        type: directory
+        contents:
+        - path: /dist/payment/entities/payment.entity.js.map
+          type: file
+        - path: /dist/payment/entities/payment.entity.d.ts
+          type: file
+        - path: /dist/payment/entities/payment.entity.js
+          type: file
+      - path: /dist/payment/payment.module.js.map
+        type: file
+      - path: /dist/payment/payment.controller.d.ts
+        type: file
+      - path: /dist/payment/payment.controller.js.map
+        type: file
+      - path: /dist/payment/payment.service.js
+        type: file
+      - path: /dist/payment/payment.module.js
+        type: file
+    - path: /dist/main.d.ts
+      type: file
+    - path: /dist/app.module.js.map
+      type: file
+    - path: /dist/main.js
+      type: file
+    - path: /dist/tsconfig.build.tsbuildinfo
+      type: file
+    - path: /dist/minio
+      type: directory
+      contents:
+      - path: /dist/minio/minio.controller.js
+        type: file
+      - path: /dist/minio/minio.service.d.ts
+        type: file
+      - path: /dist/minio/minio.service.js
+        type: file
+      - path: /dist/minio/minio.controller.js.map
+        type: file
+      - path: /dist/minio/minio.service.js.map
+        type: file
+      - path: /dist/minio/minio.controller.d.ts
+        type: file
+    - path: /dist/app.module.d.ts
+      type: file
+  - path: /tsconfig.json
+    type: file
+  - path: /package.json
+    type: file
+  - path: /tsconfig.build.json
+    type: file
